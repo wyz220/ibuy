@@ -12,12 +12,11 @@
 
 
 	<modules>
-	
     <module>ibuy-common-core</module>
-  
-    </modules>
+    <module>ibuy-db</module>
+  </modules>
 
-	<!-- 配置maven地址 -->
+	<!-- 配置maven地址 
 	<distributionManagement>
 		<repository>
 			<id>nexus-releases</id>
@@ -30,6 +29,7 @@
 			<url>http://192.168.1.221:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
+-->
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -65,7 +65,7 @@
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
 				<version>${junit.version}</version>
-				<!-- 表示test的时候引入，发布的时候不会加载此�? -->
+				<!-- 表示test的时候引入，发布的时候不会加载此�? -->
 				<scope>test</scope>
 			</dependency>
 

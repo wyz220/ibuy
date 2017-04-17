@@ -155,3 +155,57 @@ org.eclipse.core.runtime.OperationCanceledException
 	at com.genuitec.eclipse.migration.core.project.internal.ProjectMigrationCandidatesJob.processMigrationCandidates(ProjectMigrationCandidatesJob.java:81)
 	at com.genuitec.eclipse.migration.core.project.internal.ProjectMigrationCandidatesJob.run(ProjectMigrationCandidatesJob.java:54)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-04-17 17:58:30.098
+!MESSAGE Unable to update index for central|http://repo.maven.apache.org/maven2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-17 17:59:32.145
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-17 18:01:23.725
+!MESSAGE The POM for com.ibuy.common:ibuy-common-core:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-17 18:14:46.944
+!MESSAGE The POM for com.ibuy.common:ibuy-common-core:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-17 18:17:48.102
+!MESSAGE The POM for com.ibuy.common:ibuy-common-core:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-17 18:18:35.221
+!MESSAGE The POM for com.ibuy.common:ibuy-common-core:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-17 18:18:54.150
+!MESSAGE The POM for com.ibuy.common:ibuy-common-core:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-17 18:19:59.759
+!MESSAGE The POM for com.ibuy.common:ibuy-common-core:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-17 18:20:10.974
+!MESSAGE The POM for com.ibuy:ibuy-common-core:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-17 18:20:47.659
+!MESSAGE The POM for com.ibuy:ibuy-common-core:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-17 18:20:55.674
+!MESSAGE The POM for com.ibuy:ibuy-common-core:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-17 18:29:50.168
+!MESSAGE The POM for com.ibuy:ibuy-common-core:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-04-17 18:31:41.446
+!MESSAGE Could not resolve artifact com.ibuy:ibuy-common-core:pom:1.0.0-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-04-17 18:31:45.641
+!MESSAGE Could not resolve artifact com.ibuy:ibuy-common-core:pom:1.0.0-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-04-17 18:34:23.345
+!MESSAGE Could not resolve artifact com.ibuy:ibuy-common-core:pom:1.0.0-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-04-17 18:34:48.852
+!MESSAGE Could not resolve artifact com.ibuy:ibuy:pom:1.0.0-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-04-17 18:34:55.856
+!MESSAGE Could not resolve artifact com.ibuy:ibuy:pom:1.0.0-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-04-17 18:41:22.884
+!MESSAGE Could not resolve artifact com.ibuy:ibuy-common-core:pom:1.0.0-SNAPSHOT
