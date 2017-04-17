@@ -140,3 +140,18 @@ Binding(SHIFT+DEL,
 
 !ENTRY org.eclipse.m2e.logback.appender 4 0 2017-04-17 17:17:21.133
 !MESSAGE Unable to update index for central|http://repo.maven.apache.org/maven2
+
+!ENTRY com.genuitec.eclipse.migration 4 0 2017-04-17 17:40:43.786
+!MESSAGE org.eclipse.core.runtime.OperationCanceledException
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:235)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:197)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:92)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:286)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:118)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2282)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2339)
+	at com.genuitec.eclipse.migration.core.project.internal.ProjectMigrationCandidatesJob.processMigrationCandidates(ProjectMigrationCandidatesJob.java:81)
+	at com.genuitec.eclipse.migration.core.project.internal.ProjectMigrationCandidatesJob.run(ProjectMigrationCandidatesJob.java:54)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
